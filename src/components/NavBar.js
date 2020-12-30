@@ -4,8 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function NavBar(){
     return (
-        //changed here
-        <header className="bg-gray-900 bg-opacity-60 w-screen fixed z-10">
+        <header className="bg-gradient-to-l from-gray-700 via-gray-800 to-gray-900 bg-opacity-60">
             <div className="container mx-auto flex justify-between">
                 <nav className="flex">
                     <NavLink 
