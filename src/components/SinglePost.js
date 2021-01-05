@@ -24,7 +24,7 @@ export default function SinglePost(){
                     url
                 }
             },
-            body
+            body,
             "name": author->name,
             "authorImage":author->image
         }`).then((data) => setSinglePost(data[0]))
@@ -34,11 +34,11 @@ export default function SinglePost(){
     if(!singlePost) return <div>Loading...</div>;
 
     return (
-        <main className="bg-gray-200 min-h-screen p-12">
-            <article className="container shadow-lg mx-auto bg-green-100 rounded-lg">
+        <main className="bg-gradient-to-l from-gray-700 via-gray-700 to-gray-800 min-h-screen p-12">
+            <article className="container shadow-lg mx-auto bg-white rounded-lg">
                 <header className="relative">
                     <div className="absolute h-full w-full flex items-center justify-center p-8">
-                        <div className="bg-white bg-opacity-75 rounded p-12">
+                        <div className="bg-green-100 bg-opacity-90 rounded p-12">
                             <h1 className="navfont text-3xl lg:text-6xl mb-4">
                                 {singlePost.title}
                             </h1>
