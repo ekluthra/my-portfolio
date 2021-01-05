@@ -5,6 +5,7 @@ import SinglePost from './components/SinglePost';
 import Post from './components/Post';
 import Project from './components/Project';
 import NavBar from './components/NavBar';
+import './App.css';
 
 
 function App() {
