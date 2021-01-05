@@ -18,8 +18,10 @@ export default function Home(){
                     and this is my website.
                 </h1>
             </section>
-            <About />
-            <Project />
+            <div className="border-t-8 border-green-100">
+                <About />
+                <Project />
+            </div>
         </main>
     )
 }
