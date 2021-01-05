@@ -15,10 +15,8 @@ function App() {
       <Switch>
         {/*doing this 5 times because 5 pages*/}
         <Route component={Home} exact path="/" />
-        <Route component={About} path="/about" />
         <Route component={SinglePost} path="/post/:slug" />
         <Route component={Post} path="/post" />
-        <Route component={Project} path="/project" />
       </Switch>
     </BrowserRouter>
   )
