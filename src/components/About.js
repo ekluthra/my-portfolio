@@ -22,7 +22,7 @@ const skills = [
 const colors = {
     "bar": "#10B981",
     "title": {
-      "text": "#fff",
+      "text": "#374151",
       "background": "#D1FAE5"
     }
   }
