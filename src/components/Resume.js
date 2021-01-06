@@ -34,7 +34,7 @@ export default class Resume extends Component {
                                 />
                             </div>
                         </Document>
-
+                        <p>Page {pageNumber} of {numPages}</p>
                     </div>
                 </section>
             </main>
