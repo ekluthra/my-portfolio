@@ -15,6 +15,13 @@ export default function NavBar(){
                     >
                         Ekagra Luthra
                     </NavLink>
+                    <NavLink
+                        to="/resume" 
+                        activeClassName="text-green-100 rounded bg-black bg-opacity-40"
+                        className = "inline-flex items-center py-3 px-3 my-6 rounded navfont text-white hover:text-green-100"
+                    >
+                        Resume
+                    </NavLink>
                     <NavLink 
                         to="/post" 
                         activeClassName="text-green-100 rounded bg-black bg-opacity-40"
