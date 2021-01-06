@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
-import imageUrlBuilder from "@sanity/image-url";
 import pic from "../aboutpic.png";
 import SkillBar from 'react-skillbars';
-
-const builder = imageUrlBuilder(sanityClient);
 
 const skills = [
     {type: "Python", level: 90},
