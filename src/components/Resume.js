@@ -21,18 +21,23 @@ export default class Resume extends Component {
     const { pageNumber, numPages } = this.state;
   
         return (
-            <div className="bg-red-100 flex items-center min-h-screen container mx-auto">
-           
-                <Document className="flex items-center"
-                    file= { res }
-                    onLoadSuccess={this.onDocumentLoadSuccess}
-                >
-                    <Page className="object-cover flex items-center"
-                        pageNumber={pageNumber} width={600} 
-                    />
-                </Document>
+            <main className ="bg-gradient-to-l from-gray-700 via-gray-700 to-gray-800 pt-16 p-1 border-t-8 border-green-100 min-h-screen">
+                <section className="relative mx-auto my-auto flex justify-center">
+                    <div>
+                        <Document
+                            file= { res }
+                            onLoadSuccess={this.onDocumentLoadSuccess}
+                        >
+                            <div>
+                                <Page
+                                    pageNumber={pageNumber} width={600} 
+                                />
+                            </div>
+                        </Document>
 
-            </div>
+                    </div>
+                </section>
+            </main>
         );
     }
 }
